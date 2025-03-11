@@ -34,6 +34,7 @@ nav a {
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px; /* Space between products */
+     margin-top: 30px; /* Push products down */
 }
 
 .product {
