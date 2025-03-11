@@ -1,8 +1,8 @@
 body {
     font-family: Arial, sans-serif;
-    max-width: 1200px; /* Adjust as needed */
+    max-width: 1200px; 
     width: 100%;
-    margin: 0;
+    margin: 0 auto; /* Center the content */
     padding: 0;
     box-sizing: border-box;
     background-color: #f0f8ff;
@@ -30,17 +30,15 @@ nav a {
 }
 
 #products {
-    text-align: center;
-    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Space between products */
 }
 
 .product {
-    display: inline-block;
-    border: 2px solid #12ad2b;
-    margin: 20px;
-    padding: 10px;
-    border-radius: 10px;
-    background-color: white;
+    width: 250px; /* Set a fixed width */
+    text-align: center;
 }
 
 button {
@@ -57,12 +55,12 @@ button:hover {
     background-color: #b50c14;
 }
 
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
 footer {
-    background: linear-gradient(to right, #0073cf, #12ad2b);
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-    position: relative;
-    bottom: 0;
-    width: 100%;
+    margin-top: auto;
 }
