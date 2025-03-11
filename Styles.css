@@ -1,7 +1,10 @@
 body {
     font-family: Arial, sans-serif;
+    max-width: 1200px; /* Adjust as needed */
+    width: 100%;
     margin: 0;
-    padding: 20;
+    padding: 0;
+    box-sizing: border-box;
     background-color: #f0f8ff;
 }
 
