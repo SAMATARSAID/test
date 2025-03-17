@@ -12,7 +12,7 @@ header {
     background: linear-gradient(to right, #0073cf, #a70291);
     color: pink;
     text-align: center;
-    padding: 20px 0;
+    padding: 30px 0;
 }
 
 nav ul {
@@ -33,7 +33,7 @@ nav a {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px; /* Space between products */
+    gap: 30px; /* Space between products */
     margin-top: 100px; /* Push products down */
 }
 
