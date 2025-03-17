@@ -7,6 +7,12 @@ body {
     box-sizing: border-box;
     background-color: #f0f8ff;
 }
+header, footer {
+  width: 100vw;
+  margin: 0;
+  padding: 20px 0; /* Adjust the padding for spacing */
+  box-sizing: border-box; /* Include padding and border in the width */
+}
 
 header {
     background: linear-gradient(to right, #0073cf, #a70291);
