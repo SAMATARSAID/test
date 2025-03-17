@@ -35,12 +35,17 @@ nav a {
     font-weight: bold;
 }
 
+#products-section {
+    text-align: center; /* Center the heading */
+    margin-top: 50px; /* Add some spacing from the top */
+}
+
 #products {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 30px; /* Space between products */
-    margin-top: 100px; /* Push products down */
+    margin-top: 30px; /* Push products down */
 }
 
 .product {
