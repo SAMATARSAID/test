@@ -9,7 +9,7 @@ body {
 }
 
 header {
-    background: linear-gradient(to right, #0073cf, #12ad2b);
+    background: linear-gradient(to right, #0073cf, #a70291);
     color: white;
     text-align: center;
     padding: 20px 0;
@@ -43,7 +43,7 @@ nav a {
 }
 
 button {
-    background-color: #d7141a;
+    background-color:  #d7141a;
     color: white;
     border: none;
     padding: 10px;
@@ -66,6 +66,6 @@ footer {
     margin-top: auto;
     text-align: center;
     padding: 10px;
-    background: linear-gradient(to right, #0073cf, #12ad2b);
+    background: linear-gradient(to right,  #e004d5, #aa048e);
     color: white;
 }
